@@ -35,7 +35,7 @@ class BikeRental:
     def rent_bike_on_daily_basis(self, n):
         """Rents a bike(s) on daily basis"""
         day = dt.datetime.today()
-        print(f'You have rented {n} bike(s) on daily basis at {day.date()} {day.hour}:{day.minute}.')
+        print(f'You have rented {n} bike(s) on daily basis at {day.date()} at {day.hour}:{day.minute}.')
         print('You\'ll be charge $20 on each bike per day.')
         print('YWe hope that You enjoy Our service.')
         self.stock -= n
@@ -44,7 +44,7 @@ class BikeRental:
     def rent_bike_on_weekly_basis(self, n):
         """Rents a bike(s) on weekly basis"""
         week = dt.datetime.today()
-        print(f'You have rented {n} bike(s) on weekly basis at {week.date()}.')
+        print(f'You have rented {n} bike(s) on weekly basis at {week.date()} at at {week.hour}:{week.minute}.')
         print('You\'ll be charge $60 on each bike per week.')
         print('YWe hope that You enjoy Our service.')
         self.stock -= n
