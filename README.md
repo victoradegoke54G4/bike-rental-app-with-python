@@ -2,7 +2,7 @@
 *A simple Python app that allows users to rent bikes with respect to time.*
 
 ## How It Works
-- The user runs `main.py` and enters their name.  
+- The user runs `main.py`.  
 - A `Customer` instance is created (via `customer.py`), storing name, bikes rented, rental time, rental type.  
 - The `BikeRental` class (in `bike_rental.py`) manages the shop’s stock, handles renting and returning, and uses `datetime` to determine the rental period.  
 - All business logic (stock changes, rental time) is separated from user interaction—so the app is modular and clean.  
